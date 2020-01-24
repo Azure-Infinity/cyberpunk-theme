@@ -1,12 +1,12 @@
 {
-  "name": "@arkecosystem/desktop-wallet-theme-template",
+  "name": "@azure-infinity/cyberpunk-theme",
   "version": "0.0.1",
   "description": "Desktop Wallet Theme Template",
   "main": "src/index.js",
-  "author": "Author Name",
+  "author": "Azure-Infinity",
   "license": "MIT",
   "desktop-wallet": {
-    "title": "Theme Template",
+    "title": "Cyberpunk theme",
     "logo": "https://raw.githubusercontent.com/ark-ecosystem-desktop-plugins/theme-template/master/logo.png",
     "categories": [
       "theme"
@@ -27,11 +27,11 @@
     "Author Name"
   ],
   "bugs": {
-    "url": "https://github.com/ark-ecosystem-desktop-plugins/theme-template/issues"
+    "url": "https://github.com/azure-infinity/cyberpunk-theme/issues"
   },
-  "homepage": "https://github.com/ark-ecosystem-desktop-plugins/theme-template#readme",
+  "homepage": "https://github.com/azure-infinity/cyberpunk-theme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ark-ecosystem-desktop-plugins/theme-template.git"
+    "url": "git+https://github.com/azure-infinity/cyberpunk-theme.git"
   }
 }
