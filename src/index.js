@@ -2,7 +2,7 @@ module.exports = {
   getThemes () {
     return {
       'plugin-cyberpunk-theme': {
-        cssPath: 'styles/light.css',
+        cssPath: 'styles/cyberpunk.css',
         darkMode: false
       }
     }
