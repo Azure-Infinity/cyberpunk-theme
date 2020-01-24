@@ -1,7 +1,7 @@
 {
   "name": "@azure-infinity/cyberpunk-theme",
-  "version": "0.0.3",
-  "description": "Desktop Wallet Theme Template",
+  "version": "0.0.4",
+  "description": "Live in the future with this theme.",
   "main": "src/index.js",
   "author": "Azure-Infinity",
   "license": "MIT",
