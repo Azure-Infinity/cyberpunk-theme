@@ -1,6 +1,6 @@
 {
   "name": "@azure-infinity/cyberpunk-theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Live in the future with this theme.",
   "main": "src/index.js",
   "author": "Azure-Infinity",
