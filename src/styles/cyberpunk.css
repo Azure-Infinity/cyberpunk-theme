@@ -2,10 +2,19 @@
 
 a {
    color:#5994ce;
+   text-shadow: 0px 0px 12px #5994ce;
 }
 
 a:hover {
   color:#5994ce;
+}
+
+h2, h3 {
+   text-shadow: 0px 0px 12px #3e09e9;
+}
+
+.transition.text-xl {
+   text-shadow: 0px 0px 18px #d5d5d5;
 }
 
 .flex.flex-1.bg-theme-feature.rounded-lg.p-10.overflow-y-auto {
@@ -73,33 +82,46 @@ a:hover {
     -o-transition:all 0.5s ease-in-out;
     -ms-transition:all 0.5s ease-in-out;
     transition:all 0.5s ease-in-out;
-    -moz-animation:blink normal 3s infinite ease-in-out;
-    -webkit-animation:blink normal 3s infinite ease-in-out;
-    -ms-animation:blink normal 3s infinite ease-in-out;
-    animation:blink normal 3s infinite ease-in-out;
+    -moz-animation:blink normal 12s infinite ease-in-out;
+    -webkit-animation:blink normal 12s infinite ease-in-out;
+    -ms-animation:blink normal 12s infinite ease-in-out;
+    animation:blink normal 12s infinite ease-in-out;
 }
 
 @keyframes blink {
-    0% {
-           background-color: rgba(92, 88, 182, 1)
-    }
-    50% {
-           background-color: rgba(92, 88, 182, 0.5)
-    }
-    100% {
-           background-color: rgba(92, 88, 182, 1)
-    }
+   0% {
+      background-color: rgba(92, 88, 182, 1);
+   }
+   25% {
+      background-color: rgba(185, 87, 206, 1);
+   }
+   50% {
+      background-color: rgba(89, 148, 206, 1);
+   }
+   75% {
+      background-color: rgba(58, 78, 147, 1);
+   }
+   100% {
+      background-color: rgba(92, 88, 182, 1);
+   }
 }
+
 @-webkit-keyframes blink {
-    0% {
-           background-color: rgba(92, 88, 182, 1)
-    }
-    50% {
-           background-color: rgba(92, 88, 182, 0.5)
-    }
-    100% {
-           background-color: rgba(92, 88, 182, 1)
-    }
+   0% {
+      background-color: rgba(92, 88, 182, 1);
+   }
+   25% {
+      background-color: rgba(185, 87, 206, 1);
+   }
+   50% {
+      background-color: rgba(89, 148, 206, 1);
+   }
+   75% {
+      background-color: rgba(58, 78, 147, 1);
+   }
+   100% {
+      background-color: rgba(92, 88, 182, 1);
+   }
 }
 
 .WalletGrid__wallet__name {
@@ -107,31 +129,31 @@ a:hover {
 }
 
 .MenuTab__nav__item {
-	color:#b957ce;
+   color:#b957ce;
 }
 
 .MenuOptions {
-	background:#181818;
+   background:#181818;
 }
 
 .bg-theme-settings {
-	background:#181818;
+   background:#181818;
 }
 
 .bg-theme-settings-sub {
-	background:#b957ce;
+   background:#b957ce;
 }
 
 .ButtonReload {
-	background:#181818;
+   background:#181818;
 }
 
 .ButtonReload:hover {
-	background:#181818;
+   background:#181818;
 }
 
 .ButtonSwitch__circle {
-	background:#b957ce;
+   background:#b957ce;
 }
 
 .theme-plugin-cyberpunk-theme {
